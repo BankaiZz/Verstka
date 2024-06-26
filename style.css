@@ -1,0 +1,92 @@
+a {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    width: 200px;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 10px / 100%;
+    background-image:
+     linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+     linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+     linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+     linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+     linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+     linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+  }
+a:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+a:active {
+    top: 1px;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    position: relative;
+    width: 1000px;
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-image: url(images/spider.jpg);
+    overflow: hidden;
+}
+
+body {
+    background-image: url(images/fon.jpg);
+    background-attachment: fixed;
+}
+
+div{
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+}
+
+header{
+    background-image: url(images/code.jpg);
+    height: 212px;
+    background-size: cover;
+}
+
+h1{
+    font-family: Ametist;
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: Ametist;
+    src: url(fonts/Ametist.ttf);
+}
+
+footer{
+    height: 200px;
+    top: 115px;
+    left: -115px;
+    position: relative;
+}
+
+.web{
+    position: absolute;
+    top: -450px;
+    right: -450px;
+}
